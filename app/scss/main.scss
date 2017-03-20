@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+
+$bgColor: #e088b6;
+$font: 'Slabo, 27px, serif';
+$color: black;
+
+body {
+  background: $bgColor;
+  color: $color;
+
+  section {
+    outline: dotted 1px orange;
+    font-family: $font;
+  }
+}
